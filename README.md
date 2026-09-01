@@ -6,29 +6,15 @@ This theme styles both the **IDE Appearance (UI Theme)** and the **Editor Color 
 
 ---
 
-## 🎨 Color Palette & Design
+## Color Palette & Design
 
-| Element | Color Code | Description |
-| :--- | :--- | :--- |
-| **Background** | `#181818` | Deep primary background for editor and windows |
-| **Panel Background** | `#141414` | Sidebar, tool windows, popups, and status bar |
-| **Foreground / Text** | `#b0b0b0` | Standard code text, parameters, and identifiers |
-| **Strings & Characters** | `#cccccc` | Crisp, bright string literals and characters |
-| **Emphasis / Special** | `#cccccc` | High-contrast keywords (e.g. `return`), titles, active tabs |
-| **Keywords & Types** | `#777777` | Subdued keywords, types, control flow, and operators |
-| **Functions & Methods** | `#d9ba73` | Warm golden accent for function/method declarations & calls |
-| **Constants & Numbers** | `#d9ba73` | Numbers, booleans, and constant literals |
-| **Comments & Line Numbers** | `#50585d` | Unobtrusive comments and gutter line numbers |
-| **Active Line / Selection** | `#272727` | Caret row highlight and selection backgrounds |
-| **Borders & Separators** | `#474747` | Subtle contrast window and panel borders |
-| **Info / Links** | `#8ebeec` | Diagnostics info, links, and breadcrumbs |
-| **Success / Added** | `#86cd82` | VCS additions, passing test runs |
-| **Warning / Modified** | `#d9ba73` | VCS modifications, warnings |
-| **Danger / Errors** | `#ff7676` | Errors, syntax issues, VCS deletions |
+The original Koda color palette has a very high contrast. This theme reduces it by replacing
+- text of #ffffff to #cccccc
+- background of #101010 to #181818
 
 ---
 
-## 📦 Installation
+## Installation
 
 ### Method 1: Install from Disk (Recommended & Fastest)
 
@@ -58,6 +44,6 @@ The output file will be generated in `build/distributions/koda-jetbrains-1.0.0.z
 
 ---
 
-## 💻 Integrated Terminal
+## Integrated Terminal
 
-The built-in JetBrains terminal colors are configured to match the Koda dark 16-color ANSI palette defined in `koda-dark.toml`.
+iTerm2 and Alacritty colorschemes can be found in `colorscheme/`
