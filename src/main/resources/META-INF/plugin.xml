@@ -1,0 +1,23 @@
+<idea-plugin>
+    <id>com.davidshi.koda</id>
+    <name>Koda Dark</name>
+    <vendor email="davidshi@users.noreply.github.com" url="https://github.com">David Shi</vendor>
+
+    <description><![CDATA[
+    <h1>Koda Dark Theme for JetBrains IDEs</h1>
+    <p>A sleek, minimalist dark theme for JetBrains IDEs based on Neovim's popular <b>Koda</b> theme.</p>
+    <h2>Features</h2>
+    <ul>
+      <li><b>Palette:</b> Deep #181818 background with crisp #cccccc text and #b0b0b0 foreground.</li>
+      <li><b>Syntax Highlighting:</b> Subtle #777777 keywords and types, with golden #d9ba73 functions and constants.</li>
+      <li><b>IDE Appearance:</b> Unified UI theme supporting both JetBrains New UI and Classic UI.</li>
+      <li><b>Terminal:</b> Built-in terminal color palette matching Koda dark specifications.</li>
+    </ul>
+    ]]></description>
+
+    <depends>com.intellij.modules.platform</depends>
+
+    <extensions defaultExtensionNs="com.intellij">
+        <themeProvider id="com.davidshi.koda.dark" path="/theme/koda.theme.json"/>
+    </extensions>
+</idea-plugin>
