@@ -1,7 +1,7 @@
 # Koda.nvim-inspired Alacritty theme
-# Based on Koda dark palette, with:
-# - background changed to #181818
-# - all #ffffff changed to #cccccc
+# Low contrast treatment based on the Koda dark palette
+# - background changed from #101010 to #181818
+# - all #ffffff changed to from #ffffff to #cccccc
 # - bright ANSI colors identical to normal ANSI colors
 
 [colors.primary]

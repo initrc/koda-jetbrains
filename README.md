@@ -36,9 +36,7 @@ This theme styles both the **IDE Appearance (UI Theme)** and the **Editor Color 
 2. Go to **Settings / Preferences** (`⌘,` on macOS or `Ctrl+Alt+S` on Windows/Linux).
 3. Navigate to **Plugins**.
 4. Click the **⚙️ (gear icon)** at the top right of the Plugins window and select **Install Plugin from Disk...**.
-5. Choose either:
-   - `dist/koda-jetbrains-1.0.0.zip` or
-   - `dist/koda-dark-theme-1.0.0.jar`
+5. Choose `dist/koda-jetbrains-1.0.0.zip`
 6. Restart the IDE or apply when prompted.
 7. Go to **Settings -> Appearance & Behavior -> Appearance** and select **Koda Dark** under **Theme**.
 8. Verify **Settings -> Editor -> Color Scheme** is set to **Koda Dark**.
@@ -57,30 +55,6 @@ To build a fresh distribution package:
 ./gradlew buildPlugin
 ```
 The output file will be generated in `build/distributions/koda-jetbrains-1.0.0.zip`.
-
----
-
-## 📁 Project Structure
-
-```
-koda-jetbrains/
-├── build.gradle.kts                     # Gradle build configuration
-├── settings.gradle.kts                  # Gradle settings
-├── gradle.properties                    # Version and compatibility settings
-├── koda-dark.toml                       # Terminal / Alacritty reference palette
-├── dist/                                # Pre-built installable packages
-│   ├── koda-jetbrains-1.0.0.zip
-│   └── koda-dark-theme-1.0.0.jar
-└── src/
-    └── main/
-        └── resources/
-            ├── META-INF/
-            │   ├── plugin.xml           # Plugin declaration & metadata
-            │   └── pluginIcon.svg       # Plugin branding icon
-            └── theme/
-                ├── koda.theme.json      # IDE UI Appearance Theme
-                └── koda.xml             # Editor Syntax Color Scheme
-```
 
 ---
 
