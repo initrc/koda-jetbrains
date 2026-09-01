@@ -4,5 +4,4 @@ out/
 .idea/
 *.iml
 .DS_Store
-dist/
 .intellijPlatform/
