@@ -900,6 +900,32 @@
         <option name="FONT_TYPE" value="1"/>
       </value>
     </option>
+    <!-- Kotlin's Android Studio DSL semantic highlighter uses these fields for
+         Compose calls, taking precedence over the regular function-call colors. -->
+    <option name="KOTLIN_DSL_STYLE1">
+      <value>
+        <option name="FOREGROUND" value="d9ba73"/>
+        <option name="FONT_TYPE" value="1"/>
+      </value>
+    </option>
+    <option name="KOTLIN_DSL_STYLE2">
+      <value>
+        <option name="FOREGROUND" value="d9ba73"/>
+        <option name="FONT_TYPE" value="1"/>
+      </value>
+    </option>
+    <option name="KOTLIN_DSL_STYLE3">
+      <value>
+        <option name="FOREGROUND" value="d9ba73"/>
+        <option name="FONT_TYPE" value="1"/>
+      </value>
+    </option>
+    <option name="KOTLIN_DSL_STYLE4">
+      <value>
+        <option name="FOREGROUND" value="d9ba73"/>
+        <option name="FONT_TYPE" value="1"/>
+      </value>
+    </option>
     <!-- Android Studio's Compose plugin uses these attributes. -->
     <option name="IntelliJComposableCallTextAttributes">
       <value>
